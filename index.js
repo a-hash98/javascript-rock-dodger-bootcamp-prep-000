@@ -130,8 +130,7 @@ function createRock(x = 2) {
 function endGame() {
   clearInterval(gameInterval)
   for (var i = 0; i < ROCKS.length; i++){
-    ROCKS[i].parentNode.removeChild(Rocks[i])
-  }
+    ROCKS[i] = ROCKS[i]:after
   alert('YOU LOSE!')
 }
 
