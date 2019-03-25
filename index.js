@@ -63,9 +63,9 @@ function checkCollision(rock) {
 
 function createRock(x) {
 
- if (checkCollision()){
-   endGame()
- }
+ //if (checkCollision()){
+ //   endGame()
+ //}
 
   const rock = document.createElement('div')
 
