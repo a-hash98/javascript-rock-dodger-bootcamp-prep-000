@@ -69,7 +69,7 @@ function createRock(x) {
 
   window.requestAnimationFrame()
   if (checkCollision){
-    endGame()
+    endGame
   }
   // Hmmm, why would we have used `var` here?
   var top = 0
