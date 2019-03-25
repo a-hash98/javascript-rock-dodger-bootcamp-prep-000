@@ -72,7 +72,7 @@ function createRock(x) {
   rock.style.left = `${x}px`
 
   window.requestAnimationFrame(createRock(x))
-  
+
   //if (checkCollision){
   //  endGame
   //}
