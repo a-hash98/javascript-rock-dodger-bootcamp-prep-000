@@ -61,7 +61,7 @@ function checkCollision(rock) {
   }
 }
 
-function createRock(x) {
+function createRock(x = 2) {
 
  //if (checkCollision()){
  //   endGame()
