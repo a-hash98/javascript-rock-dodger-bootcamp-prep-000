@@ -63,13 +63,16 @@ function checkCollision(rock) {
 
 function createRock(x) {
 
+ if (checkCollision()){
+   endGame()
+ }
 
   const rock = document.createElement('div')
 
   rock.className = 'rock'
   rock.style.left = `${x}px`
 
-  window.requestAnimationFrame(createRock(x))
+  window.requestAnimationFrame()
 
   //if (checkCollision){
   //  endGame
